@@ -1,0 +1,4 @@
+fun litres(time: Double): Int {
+    val lit = time * 0.5
+  return lit. toInt()
+}

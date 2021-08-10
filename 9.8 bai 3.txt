@@ -1,0 +1,14 @@
+fun feast(beast: String, dish: String): Boolean {
+    val first1 = beast. get(0)
+    val first2 = dish. get(0)
+    val end1 = beast. get(beast.length-1)
+    val end2 = dish. get(dish.length-1)
+    
+    if (first1 == first2 && end1 == end2){
+        return true
+ }
+    else {
+        return false
+    }
+
+}
